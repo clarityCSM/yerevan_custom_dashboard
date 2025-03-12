@@ -1,0 +1,58 @@
+meta:
+  name:
+    short: Clarity
+    full: Clarity Movement Co.
+  link:
+    home: "https://clarity.io"         # Update with your actual website URL
+    github: "https://github.com/claritymovement" # Update if applicable
+    twitter: "https://twitter.com/JoinClarity"     # Update if applicable
+
+logo:
+  images:
+    primary: brand/assets/clarity-logo.png         # Primary use – full-color logo
+    limited-black: brand/assets/clarity-logo.png     # Limited use – one-color black logo
+    limited-white: brand/assets/clarity-logo.png     # Limited use – one-color white logo
+  small: brand/assets/clarity-logo.png              # Social media icon and favicon
+  medium:
+    light: limited-black
+    dark: limited-white
+  large: primary
+
+color:
+  palette:
+    white: "#FFFFFF"
+    clarityBlue: "#2994E5"
+    darkGrey: "#464646"
+    lightBlue: "#e6f7ff"
+    accentBlue: "#275476"
+    greyLight: "#E0E0E0"
+    greyMedium: "#A0A0A0"
+    red: "#f5222d"
+    orange: "#FA8C16"
+    yellow: "#FADB14"
+    green: "#52C41A"
+    purple: "#722ED1"
+    sblue: "#1890FF"
+    # Bootstrap color aliases
+    blue: clarityBlue
+    grey: darkGrey
+
+  foreground: darkGrey
+  # background: white
+  primary: lightBlue
+  secondary: accentBlue
+  # success: green
+  # info: sblue
+  # warning: yellow
+  # danger: red
+  # light: lightBlue
+  # dark: darkGrey
+
+
+typography:
+  fonts:
+    - family: Poppins
+      source: google
+    - family: Nunito
+      source: google
+  base: Nunito
